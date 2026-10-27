@@ -1,0 +1,9 @@
+.kpi--teal { background: linear-gradient(135deg, #32ade6, #0071e3); }
+.kpis { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+@media (max-width: 1000px) { .kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.toolbar { display: flex; justify-content: flex-start; margin-bottom: 16px; }
+.method { display: grid; gap: 10px; color: var(--muted); font-size: 14px; }
+.method strong { color: var(--text); }
+code { font-family: var(--mono); font-size: 12px; }
+#cohorts { overflow-x: auto; }
